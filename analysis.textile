@@ -1,0 +1,29 @@
+Method                                  ArrayList       Reason                                  LinkedList             Reason
+
+boolean add(T element);                  O(1)        always add  to the last index                O(n)            traversing linkedlist to add to the end
+
+boolean add(int index, T element);       O(n)       arraycopy method iterates in the
+                                                   list once to copy each elements                O(1)             set a new pointer at node before index
+
+void clear();                           O(1)        reinitialize the list, constant time          O(1)             reset the pointer, constant time
+
+boolean contains(T element);            O(n)      use one for loop to search through the list     O(n)            traversing the nodes to search 
+
+T get(int index);                       O(1)      access array[index] uses constant time          O(n)        use for loop to get to the nth Node
+
+int indexOf(T element);                 O(n)     use one for loop to search in the list           O(n)          traversing linkedlist
+
+boolean isEmpty();                      O(1)      check a variable == 0                           O(1)           1 check header == null
+
+int lastIndexOf(T element);             o(n)       access the list with a for loop                O(n)              traversing the linkedlist
+
+T set(int index, T element);            O(1)       access array[index] uses constant time         O(n)              traversing the linkedlist
+
+int size();                             O(1)        return a variable uses constant time          O(n)              traversing the linkedlist
+
+void sort(boolean order);               O(n^2)    bubble sort uses two for loops                  O(n)              bubble sort 
+
+boolean remove(T element);              O(n)      one for loop to access data in the list         O(n)              traversing the linkedlist
+
+T remove(int index);                    O(n)     arraycopy uses one for loop to access and        O(n)              traversing the linkedlist 
+                                                    copy data       
