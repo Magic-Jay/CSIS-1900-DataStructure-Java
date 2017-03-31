@@ -4,4 +4,4 @@
 ..* delete 
 ..* sort ,etc
 
-* Then it uses implement data stucture to build a database stores different objects. 
+* Then it uses implemented data stuctures to build a database stores different objects. 
