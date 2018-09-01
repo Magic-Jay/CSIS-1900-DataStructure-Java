@@ -1,5 +1,5 @@
 # ArrayList-and-LinkedList-Database
-## The project uses Java Generics to implement ArrayList, LinkedList and all necessary methods associated with, such as,
+## To show that I indeed do know data structures and algorithm
 ..* add
 ..* delete 
 ..* sort ,etc
